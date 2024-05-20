@@ -33,7 +33,7 @@ public static class Priority {
         
         Console.WriteLine(priorityQueue);
         
-        // Defect(s) Found:  
+        // Defect(s) Found:  Items Not Sorted by Priority on Enqueue
 
         Console.WriteLine("---------");
 
