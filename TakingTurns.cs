@@ -27,7 +27,7 @@ public static class TakingTurns {
         // Console.WriteLine(players);    // This can be un-commented out for debug help
         while (players.Length > 0)
             players.GetNextPerson();
-        // Defect(s) Found: 
+        // Defect(s) Found: The original implementation of the PersonQueue class uses the Insert(0, person) method to add people to the queue, resulting in a Last In, First Out (LIFO) behavior.
 
         Console.WriteLine("---------");
 
@@ -78,6 +78,6 @@ public static class TakingTurns {
         Console.WriteLine("Test 4");
         players = new TakingTurnsQueue();
         players.GetNextPerson();
-        // Defect(s) Found:
+        // Defect(s) Found:none
     }
 }
